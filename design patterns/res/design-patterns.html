@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hero</title>
+    <meta name="description" content="Website for Design Majors">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" type="text/css" href="res/global.css" />
+  <style>
+
+div.hero{width:100%; height:100vh; display:grid;}
+
+div.text{
+  grid-column-start: 1; grid-column-end:2;
+  grid-row-start: 1; grid-row-end:2;
+  z-index:20; color:#fff;font-size:1.5em;
+  font-family: 'garamond';
+  justify-self:center; align-self:center;
+
+}
+
+div.hero img{width:100%; height:100vh;
+  object-fit:cover; object-position:center;
+  grid-column-start: 1; grid-column-end:2;
+  grid-row-start: 1; grid-row-end:2;
+  z-index:10;
+
+}
+
+
+
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="rtf text">
+    <h1> This is a hero</h1>
+    <h2> Call a hero if trouble comes </h2>
+  </div>
+  <img src="hero.jpg" alt="Hero is Here">
+</div>
+
+</body>
+</html>
