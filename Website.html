@@ -35,55 +35,80 @@
   <style>
 
   body{margin:0; padding: 0; font-size:clamp(20px,2vw,18px);
-      font-family: 'Libre Bodoni';
-  }
-  div.rtf h1 { font-size: 5em; margin: 40px;color:rgb(34,90,34); } /* color of Georgia Crawford*/
+      font-family: 'Libre Bodoni'}
+  div.rtf h1 { font-size: 8em; margin: 40px; color:rgb(34,90,34); }
   div.rtf h2 { font-size: 2em; margin:40px;color:rgb(34,90,34);}
   div.rtf h3 { font-size: 1.5em; margin: 40px;}
-  div.rtf h4 {font-size: 1.5em; margin:40px; padding:50px}
+  div.rtf h4 {font-size: 50px;}
   div.rtf p { font-family: 'Libre Franklin'; margin: 40px;
 
   line-height:1.6em;
   margin-bottom:0.5em;
   margin-top:1.8em;}
 
-  div.rtf img.image {max-width: 100%; max-height:100%; object-fit:contain;}
+  div.rtf img.image {max-width: 100%; max-height:100%;
+    object-fit:contain;}
+
   .card { display:grid;
   grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-grid-gap: 5vw; padding:2vw; max-width: 1200px; margin:0 auto;
+grid-gap: 5vw; padding:8vw;
+max-width: 1200px; margin:0 auto;
 align-self:center;}
+
   .cards2 {display:grid;
   grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-grid-gap:5vw; padding:2vw; max-width:1200px; margin: 0 auto;
+grid-gap:5vw; padding:8vw;
+max-width:1200px; margin: 0 auto;
 align-self:center;}
+
+.card2{align-self:center;}
+.cards{align-self:center;}
+
+  .card3{ align-self:center;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+grid-gap: 5vw; padding:8vw;
+max-width: 1200px; margin:0 auto;
+align-self:center;}
+
+  .card4{
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+grid-gap: 5vw; padding:50vw; max-width: 1200px; margin:50 auto;
+align-self:center;
+}
 
   </style>
   </head>
   <body>
 
 <div class="rtf">
-  <h1> GEORGIA CRAWFORD </h1>
-  <h2> PHOTOGRAPHY & GRAPHIC DESIGN </h2>
+    <div class="card3">
+    <h1> GEORGIA CRAWFORD </h1>
+    <h2> PHOTOGRAPHY & GRAPHIC DESIGN </h2>
+  </div>
+
   <div class="cards2">
     <div class="card2">
       <h3>Guinness World Record Poster</h3>
       <p> I designed a poster for the worlds largest panned loaf of bread.
-        The largest pan loaf baked was one of 3,051 lb measuring 9 ft × 5 ft by Calgary Italian Bakery at Alberta. </p>
+        The largest pan loaf baked was one of 3,051 lb measuring 9 ft × 5 ft by Calgary Italian Bakery at Alberta. We were given two weeks to arrive at a creative sollution. </p>
     </div>
     <img class="image" src="res/space.jpg" alt="space">
   </div>
 
-<div class="card">
   <div class="card">
-    <h3>Kids Across America Magazine</h3>
-      <p> I designed a small magazine for Kids Across America, a christian camp for young urban youth. The book of James is what they center their camp on. Young men and women get to experience a totally different world here, and this magazine was used at many different campuses to spread awareness for the camp.
-      </h3>
+    <div class="cards">
+      <h3>Kids Across America Magazine</h3>
+        <p> I designed a small magazine for Kids Across America, a christian camp for young urban youth. The book of James is what they center their camp on. Young men and women get to experience a totally different world here, and this magazine was used at many different campuses to spread awareness for the camp.
+        </p>
     </div>
     <img class="image" src="res/kaa.jpg" alt="kaa">
-</div>
+  </div>
 
-  <h4>Contact Me</h4>
-  <p>iamgeorgiacrawford@gmail.com</p>
+  <div class="card4">
+    <h4>Contact Me
+    </h4>
+  </div>
+
 
 </div>
   </body>
